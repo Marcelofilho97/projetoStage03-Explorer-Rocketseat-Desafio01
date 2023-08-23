@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentoria Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <h3>MENTORIA</h3>
+      <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+  </header>
+  <Form id="my-form">
+    <fieldset>
+      <div class="fieldeset-wrapper">
+        <legend>INFORMAÇÕES PESSOAIS</legend>
+        <img src="./assets/separador.svg" alt="separador de campos do formulário">
+        <div class="input-name">
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name">
+          </div>
+          <div>
+            <label for="surname">Sobrenome</label>
+            <input type="text" id="surname">
+          </div>
+        </div>
+
+        <div class="input-email">
+          <label for="email">Email <span>(digite um email válido)</span></label>
+          <input type="email" id="email">
+        </div>
+
+        <div class="input-password">
+          <label for="password">Senha <span>(mínimo de 8 caracteres)</span></label>
+          <input type="password" id="password">
+        </div>
+      </div>
+      <div class="fieldeset-wrapper-two">
+        <legend>INFORMAÇÕES DO MENTOR</legend>
+        <img src="./assets/separador.svg" alt="separador de campos do formulário">
+        <div class="input-name-mentor">
+          <label for="input-name-mentor"> Nome do seu mentor <span>(só o primeiro nome)</span> </label>
+          <input type="text" id="input-name-mentor">
+        </div>
+      </div>
+      <div class="fieldeset-wrapper-three">
+        <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+        <img src="./assets/separador.svg" alt="separador de campos do formulário">
+        <legend>Primeira Mentoria</legend>
+        <div class="date-time-content">
+          <div class="date-form">
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" name="date" id="date" required>
+          </div>
+
+          <div class="time">
+            <div class="start-time">
+              <label for="start"> Das </label>
+              <input type="time" name="start" id="start" >
+            </div>
+  
+            <div class="end-time">
+              <label for="end"> Até </label>
+              <input type="time" name="end" id="end">
+            </div>
+          </div>
+        </div>
+        <legend>Segunda Mentoria</legend>
+        <div class="date-time-content">
+          <div class="date-form">
+            <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" name="date" id="date" required>
+          </div>
+
+          <div class="time">
+            <div class="start-time">
+              <label for="start"> Das </label>
+              <input type="time" name="start" id="start" >
+            </div>
+  
+            <div class="end-time">
+              <label for="end"> Até </label>
+              <input type="time" name="end" id="end">
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+  </Form>
+  <footer class="form-footer">
+    <input  
+      class="button" 
+      type="submit" 
+      form="my-form"
+      value="SALVAR">
+  </footer>
+</body>
+</html>

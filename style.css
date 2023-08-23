@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #efefef;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* elementos do  header */
+header {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  color: #fff;
+}
+
+header h3 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 140px;
+  margin-left: 345px;
+  margin-bottom: 18px;
+}
+
+header p {
+  width: 417px;
+  height: 46px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0;
+  margin-left: 345px ;
+  margin-bottom: 58px;
+}
+
+/* elementos do form */
+
+form {
+  background: #fff;
+  width: 750px;
+  position: relative;
+  margin: -114px 345px 0 345px;
+  border-radius: 20px 20px 0 0;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldeset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fieldeset-wrapper legend {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px; 
+  margin: 64px 0 0 64px;
+}
+
+.fieldeset-wrapper img {
+  margin: 0 64px 36px;
+}
+
+.fieldeset-wrapper label {
+  color: #4E4958;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.fieldeset-wrapper span {
+  color: #C1BCCC;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px; 
+}
+
+/* elementos input-name */
+
+.input-name {
+  margin: 0 64px 0;
+  display: flex;
+  gap: 22px;
+}
+
+.input-name div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+
+.input-name input {
+  width: 300px;
+  height: 56px;
+  padding: 1px;
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background: #FAFAFC;
+}
+
+/* elementos input-email */
+
+.input-email {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 64px;
+}
+
+.input-email input {
+  width: 622px;
+  height: 56px;
+  padding: 1px;
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background: #FAFAFC;
+}
+
+/* elementos input-password */
+.input-password {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 64px 30px;
+}
+
+.input-password input {
+  width: 622px;
+  height: 56px;
+  padding: 1px;
+
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background: #FAFAFC;
+}
+
+/* campo dois de preenchimento */
+
+.fieldeset-wrapper-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldeset-wrapper-two legend{
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px; 
+  margin-left: 64px;
+  margin-bottom: 8px;
+}
+
+.fieldeset-wrapper-two img {
+  margin: 0 64px 32px;
+}
+
+.fieldeset-wrapper-two label {
+  color: #4E4958;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.fieldeset-wrapper-two span {
+  color: #C1BCCC;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px; 
+}
+
+.input-name-mentor {
+  margin: 0 64px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-name-mentor input {
+  width: 622px;
+  height: 56px;
+  padding: 1px;
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background: #FAFAFC;
+  margin-bottom: 32px;
+}
+
+/* campo 3(três) de informação*/
+.fieldeset-wrapper-three{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.fieldeset-wrapper-three legend {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px; 
+  margin-left: 64px;
+  margin-bottom: 8px;
+}
+
+.fieldeset-wrapper-three img {
+  margin: 0 0 32px 64px;
+}
+
+/* campo 4(quatro) de informação*/
+
+.date-time-content{
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.date-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 0 64px;
+}
+
+.date-form label {
+  color: #4E4958;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.date-form span {
+  color: #C1BCCC;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px; 
+}
+
+.date-form input {
+  width: 300px;
+  height: 56px;
+  text-transform: uppercase;
+
+  padding: 1px;
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background: #FAFAFC;
+}
+
+input[type="date"]::-webkit-datetime-edit{ 
+  color: transparent; 
+}
+
+input[type="date"]:focus::-webkit-datetime-edit{ 
+  color: #C1BCCC; 
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.time{
+  display: flex;
+  gap: 10px;
+}
+
+.start-time {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.start-time label {
+  color: #4E4958;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.start-time input {
+  width: 140px;
+  height: 56px;
+
+  padding: 1px;
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background: #FAFAFC;
+}
+
+.end-time {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.end-time label{
+  color: #4E4958;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.end-time input{
+  width: 140px;
+  height: 56px;
+
+  padding: 1px;
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background: #FAFAFC;
+}
+
+input[type="time"]:not(:focus){ 
+  color: transparent; 
+}
+
+input[type="time"]:focus{ 
+  color: #C1BCCC; 
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.form-footer {
+  background: #535971;
+  width: 750px;
+  height: 160px;
+  margin: 0 345px 366px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.form-footer input {
+  background: #ff5374;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width:608px;
+  height: 56px;
+  padding: 15px 40px;
+  margin: 52px 71px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  line-height: 26px;
+  font-size: 20px;
+  font-family: 'Staatliches' sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-footer input:hover {
+background: #08a04c;
+}
+
